@@ -1,5 +1,6 @@
 // Dependencies scoped imports
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 // Project scoped imports
 
@@ -13,7 +14,7 @@ import { LayoutProps } from './types';
  *
  * API:
  *
- * - [Layout API](https://github.com/norwegianbegginer/Dekode/tree/main/src/components/Layout)
+ * - [Layout API](https://github.com/Assembless/template-react/tree/master/src/pages/Layout)
  * - inherits [Box API](https://material-ui.com/api/box/)
  */
 const Layout = ({ sx, classes, children, ...rootProps }: LayoutProps) => {
@@ -24,8 +25,7 @@ const Layout = ({ sx, classes, children, ...rootProps }: LayoutProps) => {
       <StyledMessage className={classes?.message} gutterBottom>
         {translated.example}
       </StyledMessage>
-
-      {children}
+      <Outlet />
     </StyledRoot>
   );
 };

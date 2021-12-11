@@ -13,7 +13,7 @@ import { HomeProps } from './types';
  *
  * API:
  *
- * - [Home API](https://github.com/norwegianbegginer/Dekode/tree/main/src/components/Home)
+ * - [Home API](https://github.com/Assembless/template-react/tree/master/src/pages/Home)
  * - inherits [Box API](https://material-ui.com/api/box/)
  */
 const Home = ({ sx, classes, children, ...rootProps }: HomeProps) => {

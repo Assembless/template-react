@@ -13,7 +13,7 @@ import { {{name}}Props } from './types';
  *
  * API:
  *
- * - [{{name}} API](https://github.com/norwegianbegginer/Dekode/tree/main/src/components/{{name}})
+ * - [{{name}} API](https://github.com/norwegianbegginer/template-react/tree/master/src/components/{{name}})
  * - inherits [Box API](https://material-ui.com/api/box/)
  */
 const {{name}} = ({ sx, classes, children, ...rootProps }: {{name}}Props) => {

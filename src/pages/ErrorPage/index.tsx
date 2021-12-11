@@ -13,7 +13,7 @@ import { ErrorPageProps } from './types';
  *
  * API:
  *
- * - [ErrorPage API](https://github.com/norwegianbegginer/Dekode/tree/main/src/pages/ErrorPage)
+ * - [ErrorPage API](https://github.com/Assembless/template-react/tree/master/src/pages/ErrorPage)
  * - inherits [Box API](https://material-ui.com/api/box/)
  */
 const ErrorPage = ({ sx, classes, message, ...rootProps }: ErrorPageProps) => {

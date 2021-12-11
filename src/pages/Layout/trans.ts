@@ -2,12 +2,12 @@ import { makeTranslations } from '../../config.littera';
 
 export const useTrans = makeTranslations({
   en_US: {
-    example: `Example`,
+    example: `Layout`,
   },
   de_DE: {
-    example: `Beispiel`,
+    example: `Layout`,
   },
   pl_PL: {
-    example: `Przykład`,
+    example: `Layout`,
   },
 });

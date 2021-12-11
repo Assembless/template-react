@@ -13,7 +13,7 @@ import { WrongPageProps } from './types';
  *
  * API:
  *
- * - [WrongPage API](https://github.com/norwegianbegginer/Dekode/tree/main/src/components/WrongPage)
+ * - [WrongPage API](https://github.com/Assembless/template-react/tree/master/src/pages/WrongPage)
  * - inherits [Box API](https://material-ui.com/api/box/)
  */
 const WrongPage = ({ sx, classes, children, ...rootProps }: WrongPageProps) => {
@@ -24,8 +24,7 @@ const WrongPage = ({ sx, classes, children, ...rootProps }: WrongPageProps) => {
       <StyledMessage className={classes?.message} gutterBottom>
         {translated.example}
       </StyledMessage>
-
-      {children}
+      WrongPage
     </StyledRoot>
   );
 };
